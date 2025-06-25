@@ -1,5 +1,95 @@
 [
     {
+        "title": "Glam Luv",
+        "slug": "glam-luv-ecommerce",
+        "description": "Glam Luv is a full-stack e-commerce costmetics web application. The platform allows users to browse, search, and view products, with planned features such as login/signup, product filtering, and a shopping cart.",
+        "category": "Fullstack",
+        "techStack": [
+            "React js",
+            "Node js",
+            "Express js",
+            "MongoDB",
+            "Typescript",
+            "Tailwind CSS"
+        ],
+        "url": "",
+        "github": "https://github.com/jayk-gupta/glam-luv-ecommerce",
+        "featured": true,
+        "image": "/projects/glam-luv.png"
+    },
+    {
+        "title": "Task Manager",
+        "slug": "task-manager",
+        "description": "A full-stack web application for managing tasks, built with MongoDB, Express.js, React.js, Node.js (MERN stack), incorporating TypeScript and Redux for enhanced type safety and state management.",
+        "category": "Fullstack",
+        "techStack": [
+            "React js",
+            "Node js",
+            "Express js",
+            "MongoDB",
+            "Typescript",
+            "Tailwind CSS"
+        ],
+        "url": "",
+        "github": "https://github.com/jayk-gupta/task-manager",
+        "featured": true,
+        "image": ""
+    },
+    {
+        "title": "Piano",
+        "slug": "piano",
+        "description": "Piano ",
+        "category": "Frontend",
+        "techStack": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "url": "https://jay-piano.netlify.app/",
+        "github": "https://github.com/jayk-gupta/Piano",
+        "featured": true,
+        "image": ""
+    },
+    {
+        "title": "Web Resources Hub",
+        "slug": "web-resource-hub",
+        "description": "The project aims to provide developers with a centralized platform to access a wide range of frontend tools and resources, making their development process more efficient and productive.",
+        "category": "",
+        "techStack": [],
+        "url": "https://web-resources-hub-project.vercel.app/",
+        "github": "https://github.com/jayk-gupta/web-resources-project",
+        "featured": false,
+        "image": ""
+    },
+    {
+        "title": "Analog Clock",
+        "slug": "analog-clock",
+        "description": "Analog clock",
+        "category": "Frontend",
+        "techStack": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "url": "https://jay-clock-1.netlify.app/",
+        "github": "",
+        "featured": false,
+        "image": ""
+    },
+    {
+        "title": "World Wise",
+        "slug": "world-wise",
+        "description": "A world map that tracks your footsteps into every city you can think of. Never forget your wonderful experiences, and show your friends how you have wandered the world.",
+        "category": "Frontend",
+        "techStack": [
+            "React js"
+        ],
+        "url": "https://jay-clock-1.netlify.app/",
+        "github": "",
+        "featured": false,
+        "image": ""
+    },
+    {
         "title": "Omnifood",
         "slug": "omnifood",
         "description": "A landing page for a food delivery service.",
@@ -11,19 +101,21 @@
         ],
         "url": "https://jayk-gupta.github.io/Omnifood/",
         "github": "https://github.com/jayk-gupta/Omnifood",
-        "featured": true
+        "featured": false,
+        "image": ""
     },
     {
-        "title": "Todo List",
-        "slug": "todo-list",
-        "description": "A simple React todo list app.",
+        "title": "Movies Info",
+        "slug": "movies-info",
+        "description": ".",
         "category": "Frontend",
         "techStack": [
             "React",
-            "CSS"
+            "Omdb API"
         ],
-        "url": "https://todo-list-react-jay.vercel.app/",
+        "url": "https://movies-info-jay.vercel.app/",
         "github": "https://github.com/...",
-        "featured": false
+        "featured": false,
+        "image": ""
     }
 ]
