@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Omnifood",
+        "slug": "omnifood",
+        "description": "A landing page for a food delivery service.",
+        "category": "Frontend",
+        "techStack": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "url": "https://jayk-gupta.github.io/Omnifood/",
+        "github": "https://github.com/jayk-gupta/Omnifood",
+        "featured": true
+    },
+    {
+        "title": "Todo List",
+        "slug": "todo-list",
+        "description": "A simple React todo list app.",
+        "category": "Frontend",
+        "techStack": [
+            "React",
+            "CSS"
+        ],
+        "url": "https://todo-list-react-jay.vercel.app/",
+        "github": "https://github.com/...",
+        "featured": false
+    }
+]
