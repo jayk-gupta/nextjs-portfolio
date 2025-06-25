@@ -33,7 +33,7 @@
         "url": "",
         "github": "https://github.com/jayk-gupta/task-manager",
         "featured": true,
-        "image": ""
+        "image": "/projects/world-wise.png"
     },
     {
         "title": "Piano",
@@ -48,7 +48,7 @@
         "url": "https://jay-piano.netlify.app/",
         "github": "https://github.com/jayk-gupta/Piano",
         "featured": true,
-        "image": ""
+        "image": "/projects/piano.png"
     },
     {
         "title": "Web Resources Hub",
@@ -59,7 +59,7 @@
         "url": "https://web-resources-hub-project.vercel.app/",
         "github": "https://github.com/jayk-gupta/web-resources-project",
         "featured": false,
-        "image": ""
+        "image": "/projects/movies.png"
     },
     {
         "title": "Analog Clock",
@@ -74,7 +74,7 @@
         "url": "https://jay-clock-1.netlify.app/",
         "github": "",
         "featured": false,
-        "image": ""
+        "image": "/projects/movies.png"
     },
     {
         "title": "World Wise",
@@ -87,7 +87,7 @@
         "url": "https://jay-clock-1.netlify.app/",
         "github": "",
         "featured": false,
-        "image": ""
+        "image": "/projects/world-wise.png"
     },
     {
         "title": "Omnifood",
@@ -102,7 +102,7 @@
         "url": "https://jayk-gupta.github.io/Omnifood/",
         "github": "https://github.com/jayk-gupta/Omnifood",
         "featured": false,
-        "image": ""
+        "image": "/projects/omnifood.png"
     },
     {
         "title": "Movies Info",
@@ -116,6 +116,6 @@
         "url": "https://movies-info-jay.vercel.app/",
         "github": "https://github.com/...",
         "featured": false,
-        "image": ""
+        "image": "/projects/movies.png"
     }
 ]

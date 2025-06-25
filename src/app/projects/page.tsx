@@ -14,7 +14,19 @@ export default function ProjectsList() {
   );
 }
 
-function ProjectSection({ title, projects }) {
+
+interface Project {
+  slug: string;
+  title: string;
+  image: string;
+}
+
+interface ProjectSectionProps {
+  title: string;
+  projects: Project[];
+}
+
+export function ProjectSection({ title, projects }: ProjectSectionProps) {
   return (
     <div>
       <h2 className="text-xl font-semibold mb-4">{title}</h2>
@@ -40,3 +52,5 @@ function ProjectSection({ title, projects }) {
     </div>
   );
 }
+
+
