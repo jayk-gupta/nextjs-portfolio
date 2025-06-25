@@ -1,7 +1,5 @@
 import projects from "../../data/projects.json";
 import Link from "next/link";
-const unusedVariable = 123;
-const name: number = "Jay"; // ❌ assigning string to number
 
 const featured = projects.filter((p) => p.featured);
 
