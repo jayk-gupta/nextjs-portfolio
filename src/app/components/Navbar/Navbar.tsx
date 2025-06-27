@@ -2,8 +2,8 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="bg-slate-900 p-4">
-      <ul className="flex gap-4 text-sm">
+    <div className="bg-[#181818] p-4">
+      <ul className="flex gap-12 justify-center text-lg">
         <li>
           <a href="#about">About</a>
         </li>

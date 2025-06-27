@@ -1,34 +1,5 @@
 import React from "react";
-// data/skills.ts
-export const skills = [
-  {
-    category: "Languages",
-    items: ["JavaScript", "TypeScript", "Java"],
-  },
-  {
-    category: "Frontend",
-    items: ["React.js", "Next.js", "Tailwind CSS", "HTML", "CSS"],
-  },
-  {
-    category: "Backend",
-    items: ["Node.js", "Express.js"],
-  },
-  {
-    category: "Databases",
-    items: ["MongoDB", "MySQL", "PostgreSQL"],
-  },
-  {
-    category: "Tools & Extras",
-    items: [
-      "Git & GitHub",
-      "VSCode",
-      "Postman",
-      "IntelliJ IDEA",
-      "DSA",
-      "Open Source",
-    ],
-  },
-];
+import skills from "@/data/skills.json";
 
 function Skills() {
   return (
@@ -36,13 +7,13 @@ function Skills() {
       <h2 className="text-3xl font-bold mb-6">Tech Stack</h2>
 
       <div className="space-y-8">
-        {skills.map((group) => (
+        {skills.map((group: any) => (
           <div key={group.category}>
             <h3 className="text-lg font-semibold mb-2 text-muted-foreground">
               {group.category}
             </h3>
             <div className="flex flex-wrap gap-3">
-              {group.items.map((skill) => (
+              {group.items.map((skill: string) => (
                 <SkillBadge key={skill} name={skill} />
               ))}
             </div>
