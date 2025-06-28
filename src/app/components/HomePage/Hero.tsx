@@ -4,6 +4,7 @@ function Hero() {
   return (
     <section
       id="hero"
+
       className="relative flex flex-col items-center justify-center min-h-screen text-center px-6"
     >
   
@@ -15,13 +16,6 @@ function Hero() {
         Passionate about building secure, scalable, and visually engaging web
         apps.
       </p>
-
-      <a
-        href="#about"
-        className="mt-8 animate-bounce text-sm text-blue-400 hover:underline"
-      >
-        ↓ Scroll down
-      </a>
       <section id="about" className="py-20 px-6 max-w-4xl mx-auto text-left">
         <p className="mb-4 text-lg text-muted-foreground">
           I'm <strong>Jay Kumar Gupta</strong>, a Compute Science graduate and

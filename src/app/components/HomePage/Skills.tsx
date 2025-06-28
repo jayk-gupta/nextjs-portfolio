@@ -1,9 +1,25 @@
-import React from "react";
+"use client"
+import React, { useRef } from "react";
 import skills from "@/data/skills.json";
+import { useInView,motion } from "motion/react";
 
 function Skills() {
+  const ref = useRef(null)
+  // Detect when the section is in view
+  const isInView = useInView(ref, { once: true, amount: 0.2 }); // Trigger once when 20% of section is visible
   return (
-    <section id="skills" className="py-20 px-6 max-w-5xl mx-auto">
+    <motion.section
+      id="skills"
+      className="py-20 px-6 max-w-5xl mx-auto"
+      // ref={ref}
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.2 }}
+      transition={{
+        duration: 1,
+        ease: [0.25, 0.46, 0.45, 0.94],
+      }}
+    >
       <h2 className="text-3xl font-bold mb-6">Tech Stack</h2>
 
       <div className="space-y-8">
@@ -20,7 +36,7 @@ function Skills() {
           </div>
         ))}
       </div>
-    </section>
+    </motion.section>
   );
 }
 // components/SkillBadge.tsx

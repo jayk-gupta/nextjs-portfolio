@@ -6,7 +6,7 @@ import Link from "next/link";
 const featured = projects.filter((p) => p.featured);
 function FeaturedProjects() {
   return (
-    <div>
+    <div id="project" className="scroll-mt">
       <h2>Featured Projects</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {featured.map((project) => (
