@@ -6,12 +6,10 @@ function Hero() {
       id="hero"
       className="relative flex flex-col items-center justify-center min-h-screen text-center px-6"
     >
-      <div className="text-6xl font-bold tracking-tight">
-        <span className="text-primary text-8xl">J</span>ay
-      </div>
+  
       <h1 className="mt-4 text-4xl md:text-5xl font-semibold">
-        Hi, I'm Jay — a{" "}
-        <span className="text-gradient">MERN Stack Developer</span>
+        Hi, I'm Jay, a 
+        <span className="text-gradient ml-2">MERN Stack Developer</span>
       </h1>
       <p className="mt-2 text-lg max-w-xl text-muted-foreground">
         Passionate about building secure, scalable, and visually engaging web
@@ -25,10 +23,10 @@ function Hero() {
         ↓ Scroll down
       </a>
       <section id="about" className="py-20 px-6 max-w-4xl mx-auto text-left">
-       
-
         <p className="mb-4 text-lg text-muted-foreground">
-          I'm <strong>Jay Kumar Gupta</strong>, a Compute Science graduate and full-stack web developer passionate about crafting seamless digital experiences using the MERN stack.
+          I'm <strong>Jay Kumar Gupta</strong>, a Compute Science graduate and
+          full-stack web developer passionate about crafting seamless digital
+          experiences using the MERN stack.
         </p>
         <p className="mb-4 text-lg text-muted-foreground">
           I've worked on real-world projects, built scalable REST APIs, and
