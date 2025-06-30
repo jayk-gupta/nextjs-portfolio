@@ -6,9 +6,8 @@ import Skills from "./components/HomePage/Skills";
 
 export default function Home() {
   return (
-    <div>
+    <div className="border border-white flex flex-col items-center">
       <Hero />
-      <About />
       <Skills />
       <FeaturedProjects />
       <Contact />

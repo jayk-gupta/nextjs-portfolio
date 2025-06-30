@@ -5,8 +5,7 @@ import AnimatedSection from "../Motion/AnimatedSection";
 
 function Skills() {
   return (
-    <AnimatedSection id="skills"
-    >
+    <AnimatedSection id="skills " className="border border-white">
       <h2 className="text-3xl font-bold mb-6">Tech Stack</h2>
 
       <div className="space-y-8">
